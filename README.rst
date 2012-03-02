@@ -54,7 +54,7 @@ How about:
 
 * Adding a Python interpreter with the python-ldap egg baked in.
 * Add some sample Python scripts to query for all users outside of groups.
-* Check this into Github.
+* Check this into Github—nevermind, DONE!
 
 
 .. References:
