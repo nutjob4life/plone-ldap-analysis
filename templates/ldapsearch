@@ -1,0 +1,14 @@
+#!/bin/sh
+# ldapsearch - Private LDAP server for data analysis
+#
+# Wrap the "ldapsearch" command with an env var setting that has it use our
+# own generated ldap.conf file.
+#
+# Note: templates/ldapsearch generates bin/ldap.conf. Are you editing
+# the right file?
+#
+# nutjob/2012.3.2 - created
+
+LDAPCONF="${ldap:output}"
+export LDAPCONF
+exec "${paths:ldapsearch}" -x "${dollar}@"
