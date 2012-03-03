@@ -46,6 +46,12 @@ can use to query the server.  Here are some example queries:
 ``bin/ldapsearch '(objectClass=groupOfUniqueNames)'``
     Show all the groups and their members.
 
+Or try running::
+
+    bin/python scripts/groupless.py
+
+to see everyone outside of a group.
+
 
 Future Work
 ===========
@@ -53,7 +59,8 @@ Future Work
 How about:
 
 * Adding a Python interpreter with the python-ldap egg baked in.
-* Add some sample Python scripts to query for all users outside of groups.
+* Add some sample Python scripts to query for all users outside of
+  groups—ALSO DONE.
 * Check this into Github—nevermind, DONE!
 
 
