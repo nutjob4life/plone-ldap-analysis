@@ -1,0 +1,9 @@
+._*
+.*.cfg
+.DS_Store
+parts
+var
+bin
+develop-eggs
+*.ldif
+*.ldif.bz2
